@@ -8,9 +8,9 @@ class CoffeeTest {
 
 	@Test
 	void test() {
-		Beverage coffee  = new Capuccino();
-				 coffee = new Soy(coffee);
-				 coffee = new Whip(coffee);
+		Beverage coffee =  new Capuccino();
+				 coffee =  new Soy(coffee);
+				 coffee =  new Whip(coffee);
 				 
 	   System.out.println("Cost of Soy Whipped Capuccino is "+coffee.getCost());			 
 	}
