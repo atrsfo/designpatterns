@@ -1,4 +1,4 @@
-package com.company.designpatter.adapter;
+package com.company.designpattern.adapter;
 
 import static org.junit.jupiter.api.Assertions.*;
 
